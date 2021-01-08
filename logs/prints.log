@@ -1,0 +1,3 @@
+17:34:14.309 [main] INFO  Framework.project.HomePage - Home page initialized
+17:34:20.015 [main] WARN  Framework.project.HomePage - invalid cred
+17:34:31.536 [main] DEBUG Framework.project.HomePage - finished homepage

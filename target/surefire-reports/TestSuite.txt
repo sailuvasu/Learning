@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 102.58 s <<< FAILURE! - in TestSuite
+Framework.project.VerifyTitle.validateTitle  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at Framework.project.VerifyTitle.validateTitle(VerifyTitle.java:39)
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80169" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:50:12 IST">
+    <groups>
+    </groups>
+    <test name="Verify title" duration-ms="69408" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:50:01 IST">
+      <class name="Framework.project.VerifyTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Framework.project.VerifyTitle@74ea2410]" name="initialize" is-config="true" duration-ms="39926" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:49:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:Framework.project.VerifyTitle@74ea2410]" name="validateTitle" duration-ms="654" started-at="2021-01-07T15:49:32 IST" finished-at="2021-01-07T15:49:33 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at Framework.project.VerifyTitle.validateTitle(VerifyTitle.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Framework.project.VerifyTitle@74ea2410]" name="finish" is-config="true" duration-ms="24799" started-at="2021-01-07T15:49:37 IST" finished-at="2021-01-07T15:50:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Framework.project.VerifyTitle -->
+    </test> <!-- Verify title -->
+    <test name="HomePage" duration-ms="78079" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:50:10 IST">
+      <class name="Framework.project.HomePage">
+        <test-method status="PASS" signature="start()[pri:0, instance:Framework.project.HomePage@8f2ef19]" name="start" is-config="true" duration-ms="41409" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:49:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="Home()[pri:0, instance:Framework.project.HomePage@8f2ef19]" name="Home" duration-ms="13387" started-at="2021-01-07T15:49:33 IST" finished-at="2021-01-07T15:49:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Framework.project.HomePage@8f2ef19]" name="finish" is-config="true" duration-ms="23250" started-at="2021-01-07T15:49:47 IST" finished-at="2021-01-07T15:50:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Framework.project.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="verify nav" duration-ms="80169" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:50:12 IST">
+      <class name="Framework.project.VerifyNav">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Framework.project.VerifyNav@6574a52c]" name="initialize" is-config="true" duration-ms="36431" started-at="2021-01-07T15:48:52 IST" finished-at="2021-01-07T15:49:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateNav()[pri:0, instance:Framework.project.VerifyNav@6574a52c]" name="validateNav" duration-ms="2761" started-at="2021-01-07T15:49:29 IST" finished-at="2021-01-07T15:49:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNav -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Framework.project.VerifyNav@6574a52c]" name="finish" is-config="true" duration-ms="40575" started-at="2021-01-07T15:49:31 IST" finished-at="2021-01-07T15:50:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Framework.project.VerifyNav -->
+    </test> <!-- verify nav -->
+  </suite> <!-- Suite -->
+</testng-results>
